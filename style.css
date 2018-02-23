@@ -1,1 +1,15 @@
 /* CSS Variables */
+root: {
+    --dark: #303030;
+    --light: #f4f4f4;
+    --accent: #39ff14;
+
+}
+
+html {
+
+}
+
+body {
+
+}
