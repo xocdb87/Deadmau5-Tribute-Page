@@ -3,13 +3,42 @@ root: {
     --dark: #303030;
     --light: #f4f4f4;
     --accent: #39ff14;
-
+    --shadow: #505050;
 }
 
 html {
-
+  box-sizing: border-box;
+  color: var(--dark);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+background: #adadad;
+margin: 20px, 45px;
+line-height: 18px;
+}
+
+.btn {
+  background: var(--dark);
+  color: var(--light);
+  padding: 10px, 20px;
+  text-decoration: none;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrap {
+  display: grid;
+  grid-gap: 18px;
+}
+
+/* Banner Section */
+
+.banner {
+  display: block;
+  text-align: center;
 
 }
